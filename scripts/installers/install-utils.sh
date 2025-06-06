@@ -12,6 +12,7 @@ Pkgs=(
     htop
     net-tools
     nfs-common
+    fzf
 )
 
 echo "Installing utility packages..."
