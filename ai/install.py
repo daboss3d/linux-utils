@@ -4,7 +4,7 @@
 
 import os
 import sys
-
+import psutil
 
 # sys.path.append("/utils")
 from utils.text import clear_markdown_to_color, Colors, ask_yes_no
@@ -38,7 +38,6 @@ shell = get_shell()
 print("Working dir ->", get_assistant_home())
 
 if shell == "powershell":
-    import psutil
 
     print("Installing PowerShell profile...")
     # Read the $PROFILE variable with powershell
@@ -88,7 +87,6 @@ function ai {
 
 
 elif shell == "windowsterminal":
-    import psutil
     try:
         import subprocess
         print("Installing windowsterminal profile...")
