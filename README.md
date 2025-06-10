@@ -38,7 +38,7 @@ uv self update
 #### AI agent helper
 ```shell
 uv init
-uv install
+uv sync
 
 
 ```
