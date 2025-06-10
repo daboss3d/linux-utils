@@ -71,7 +71,7 @@ elif shell == "bash":
     
     ai_function = '''
 function ai {
-    python "$AI_TERMINAL_ASSISTANT_HOME" "$*"
+    python3 "$AI_TERMINAL_ASSISTANT_HOME" "$*"
 }
         '''
     ai_function = ai_function.replace("$AI_TERMINAL_ASSISTANT_HOME", get_assistant_home()+"/agent-helper/ah.py" )

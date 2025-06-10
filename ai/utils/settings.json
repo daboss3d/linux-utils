@@ -1,0 +1,10 @@
+{
+    "directories": {
+        "cwd": "C:\\Users\\Daboss\\Code\\linux-utils\\ai\\utils",
+        "utils": "",
+        "ai": "C:\\Users\\Daboss\\Code\\linux-utils\\ai",
+        "models": 350
+    },
+    "directories.models": 50,
+    "brightness": 70
+}
