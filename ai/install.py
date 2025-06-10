@@ -62,7 +62,7 @@ elif shell == "bash":
     os.system('')
 
     # Read the .bash_profile file
-    profile_path = os.path.expanduser("~/.bash_profile")
+    profile_path = os.path.expanduser("~/.bashrc")
     profile_content = open(profile_path, "r").read()
 
     # Use regex replace to remove function ai() {...} from the profile

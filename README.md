@@ -39,7 +39,8 @@ uv self update
 ```shell
 uv init
 uv sync
-
+# Install agent
+uv run install.py
 
 ```
 
